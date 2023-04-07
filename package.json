@@ -1,0 +1,25 @@
+{
+  "name": "translate-i18n-cli",
+  "version": "1.0.0",
+  "description": "A CLI for translating i18n based files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "bin": {
+    "translate": "./index.js"
+  },
+  "keywords": [
+    "cli",
+    "npmtool"
+  ],
+  "author": "bilalanees98",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^9.1.5",
+    "translate-json-object": "^2.3.7"
+  }
+}
